@@ -1,4 +1,4 @@
-Description of algorithm and modifications done to alpha beta- 
+﻿Description of algorithm and modifications done to alpha beta- 
 The approach is essentially the same as classic alpha beta pruning algorithm with one little difference, The Max search and the min search return a tuple containing (v,action) rather than only v. The recursive calls by min and max to each other discard the action from the value returned as they don't need it. The top level apha beta search keeps the action returned by Max and returns it.
 
 Description of Evaluation function- 
@@ -26,4 +26,4 @@ For Ubuntu and similar versions of linux -  sudo apt-get install python-wxgtk2.8
 	ai.py
 	gui.py
 
-run the command from the terminal to start the game: python ai.py
+Run the command from the terminal to start the game: python ai.py
